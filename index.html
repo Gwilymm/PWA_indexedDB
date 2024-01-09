@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple PWA</title>
+    <link rel="manifest" href="/manifest.json" />
+    <script src="https://cdn.jsdelivr.net/npm/sql.js@1.5.0/dist/sql-wasm.js"></script>
+    <script src="index.js" type="module"></script>
+  </head>
+  <body>
+    <form id="myForm">
+      <label for="name">Name:</label><br />
+      <input type="text" id="name" name="name" /><br />
+      <label for="email">Email:</label><br />
+      <input type="text" id="email" name="email" /><br />
+      <input type="submit" value="Submit" />
+    </form>
+    <table id="userTable">
+      <!-- User data will be inserted here -->
+    </table>
+  </body>
+</html>
