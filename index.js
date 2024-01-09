@@ -1,6 +1,7 @@
 // Open (or create) the database
 let openRequest = indexedDB.open("myDatabase", 1);
-const MAX_QUOTA = 50 * 1024 * 1024; // 50MB
+/* const MAX_QUOTA = 50 * 1024 * 1024; // 50MB
+ */
 
 // Create the schema
 openRequest.onupgradeneeded = function () {

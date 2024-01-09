@@ -1,27 +1,7 @@
 {
 	"short_name": "BddMax",
 	"name": "Bdd MAX",
-	"icons": [
-	  {
-	    "src": "icon/lowres.webp",
-	    "sizes": "48x48",
-	    "type": "image/webp"
-	  },
-	  {
-	    "src": "icon/lowres.png",
-	    "sizes": "48x48",
-	    "type": "image/png"
-	  },
-	  {
-	    "src": "icon/hd_hi.ico",
-	    "sizes": "72x72 96x96 128x128 256x256"
-	  },
-	  {
-	    "src": "icon/hd_hi.svg",
-	    "sizes": "72x72"
-	  }
-	],
-	"start_url": "/",
+	"start_url": "/bddmax",
 	"background_color": "#3367D6",
 	"display": "standalone",
 	"scope": "/",
